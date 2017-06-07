@@ -1,0 +1,29 @@
+{
+  "name": "ramda-koans",
+  "version": "1.0.0",
+  "description": "Ramda Koans - Learn Ramda by making tests pass",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava ./*.js --fail-fast"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ignu/ramda-koans.git"
+  },
+  "keywords": [
+    "ramda",
+    "javascript"
+  ],
+  "author": "Len Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ignu/ramda-koans/issues"
+  },
+  "homepage": "https://github.com/ignu/ramda-koans#readme",
+  "devDependencies": {
+    "ava": "^0.19.1"
+  },
+  "dependencies": {
+    "ramda": "^0.24.1"
+  }
+}
